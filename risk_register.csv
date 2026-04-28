@@ -1,0 +1,4 @@
+risk_id,threat_event,likelihood,min_loss,max_loss
+R-001,Ransomware Attack,0.20,50000,500000
+R-002,Unauthorized Cloud Access,0.45,10000,100000
+R-003,Insider Data Leak,0.15,25000,200000
