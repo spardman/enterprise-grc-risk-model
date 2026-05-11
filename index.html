@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-p7F8yp8QaP6jkJdRcR3wMCUYNr+lxfuZPrm5iQ7WysOQvIW7sLYjCL5DkaUN5p2P5ZdA0Fb7dVpfPoc+gXJrkg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel='stylesheet' href='https://cloudflare.com'>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="site-shell">
+      <header class="hero">
+        <div class="hero-content">
+          <p class="eyebrow">Hello, I&apos;m</p>
+          <h1 data-text="Dwan Edwards">Dwan Edwards</h1>
+          <p class="subtitle">
+            Cybersecurity Strategy & GRC Analyst
+          </p>
+          <img src="https://giphy.com" alt="Cybersecurity HUD GIF" class="hero-gif" />
+          <div class="hero-actions">
+            <a href="#projects" class="button button-primary">View Projects</a>
+            <a href="dwan-edwards-resume.pdf" class="button button-secondary" download>Download Resume</a>
+            <a href="#contact" class="button button-secondary">Get in Touch</a>
+          </div>
+          <div class="social-links hero-social">
+            <a href="https://www.linkedin.com/in/dwan-edwards/" target="_blank" rel="noopener noreferrer" class="social-button" title="LinkedIn">in</a>
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-button" title="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="https://tryhackme.com/p/dwaedwards" target="_blank" rel="noopener noreferrer" class="social-button" title="TryHackMe"><i class="fa-brands fa-terminal"></i></a>
+          </div>
+        </div>
+      </header>
+
+      <section id="certifications" class="section grid certifications-grid">
+        <h2>Certifications and Education</h2>
+        <article class="cert-card">
+          <div class="cert-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+          <h3>MBA in IT Management</h3>
+          <p>Graduate-level training in technology strategy, leadership, and business operations for IT teams.</p>
+        </article>
+        <article class="cert-card">
+          <div class="cert-icon"><i class="fa-solid fa-shield-halved"></i></div>
+          <h3>CompTIA Security+</h3>
+          <p>Industry certification covering network security, risk management, and threat mitigation.</p>
+        </article>
+        <article class="cert-card">
+          <div class="cert-icon"><i class="fa-solid fa-user-shield"></i></div>
+          <h3>EC-Council Certified Ethical Hacker (CEH)</h3>
+          <p>Advanced ethical hacking credential focused on penetration testing and cybersecurity defense.</p>
+        </article>
+        <article class="cert-card">
+          <a href="https://tryhackme.com" target="_blank" rel="noopener noreferrer">
+            <img src="https://tryhackme.com" alt="TryHackMe" />
+          </a>
+        </article>
+      </section>
+
+      <section id="about" class="section card">
+        <h2>About Me</h2>
+        <p>
+          I am a dedicated Cybersecurity SOC Analyst and GRC Strategist, specializing in bridging the gap between technical threat detection and enterprise risk management. With a background in IT Management (MBA) and a focus on quantitative risk modeling, I translate complex security vulnerabilities into actionable business insights. I am passionate about staying ahead of emerging threats through active competition on TryHackMe and developing open-source GRC tools to help organizations secure their SaaS environments.
+        </p>
+      </section>
+
+      <section id="projects" class="section">
+        <h2>Projects</h2>
+        <a href="https://github.com/spardman/enterprise-grc-risk-model" target="_blank" rel="noopener noreferrer">
+          <article class="project-card">
+            <h3>Enterprise GRC Risk Model</h3>
+            <p>
+              A quantitative risk model using Monte Carlo simulations (Python) to provide dollar-value impacts for SaaS data security.
+            </p>
+            <p class="tech-stack">Tech: Python | Monte Carlo | GRC</p>
+          </article>
+        </a>
+      </section>
+
+      <section class="section grid skills-grid">
+        <h2>Technical Skills</h2>
+        <article class="skill-card">
+          <div class="skill-icon">🛡️</div>
+          <h3>Cybersecurity</h3>
+          <p>Threat detection, incident response, vulnerability management, and security architecture.</p>
+        </article>
+        <article class="skill-card">
+          <div class="skill-icon">📋</div>
+          <h3>GRC</h3>
+          <p>Governance, Risk, and Compliance - Policy implementation, audits, and regulatory standards.</p>
+        </article>
+      </section>
+
+      <section id="contact" class="section card contact-card">
+        <h2>Contact Me</h2>
+        <p>
+          Interested in collaborating or have a project idea? Fill out the form below and I&apos;ll respond soon.
+        </p>
+        <form class="contact-form" action="https://formspree.io/f/mgodrozq" method="post">
+          <label>
+            Name
+            <input type="text" name="name" placeholder="Your name" required />
+          </label>
+          <label>
+            Email
+            <input type="email" name="_replyto" placeholder="you@example.com" required />
+          </label>
+          <label>
+            Message
+            <textarea name="message" rows="5" placeholder="Tell me about your project" required></textarea>
+          </label>
+          <button type="submit" class="button button-primary button-send">Send Message</button>
+        </form>
+        <p class="thank-you-message" style="display: none;">Thank you! Your message has been sent. I will get back to you shortly.</p>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <p>&copy; 2026 Dwan Edwards. All rights reserved.</p>
+        <div class="footer-message">Thank you for visiting! I am always open to discussing new opportunities or collaborating on cybersecurity projects.</div>
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/dwan-edwards/" target="_blank" rel="noopener noreferrer" class="social-button" title="LinkedIn">in</a>
+          <a href="https://github.com/spardman" target="_blank" rel="noopener noreferrer" class="social-button" title="GitHub"><i class="fa-brands fa-github"></i></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
