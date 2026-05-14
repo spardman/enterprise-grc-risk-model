@@ -492,6 +492,31 @@ a {
   .footer-content {
     flex-direction: column;
     gap: 16px;
-    text-align: center;
-  }
+  text-align: center;
+}
+}
+
+.hero-actions a {
+  display: inline-block;
+  padding: 10px 24px;
+  border-radius: 50px;
+  font-family: inherit;
+  font-weight: 600;
+  text-decoration: none;
+  color: #ffffff;
+  background: transparent;
+  border: 2px solid transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+.hero-actions a.active {
+  background-color: #00e5ff; 
+  color: #0b0c10; 
+  box-shadow: 0 0 15px rgba(0, 229, 255, 0.6);
+}
+
+.hero-actions a:hover:not(.active) {
+  border-color: #00e5ff;
+  color: #00e5ff;
+  text-shadow: 0 0 8px rgba(0, 229, 255, 0.4);
 }
