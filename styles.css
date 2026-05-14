@@ -495,10 +495,13 @@ a {
   text-align: center;
 }
 
-/* Universal rounded capsule/pill layout format overrides */
+/* Fixed Height Pill Structure to Override Template Layouts */
 .button.neon-pill {
-  display: inline-block !important;
-  padding: 12px 24px !important;
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  height: 46px !important; /* Explicit heights stop template squishing */
+  padding: 0 24px !important;
   margin: 6px 8px !important;
   font-weight: 600 !important;
   border-radius: 50px !important; 
@@ -506,8 +509,8 @@ a {
   text-decoration: none !important;
   transition: all 0.3s ease-in-out !important;
   color: #ffffff !important;
-  background-color: rgba(255, 255, 255, 0.03) !important; /* Soft backdrop for legibility */
-  border: 2px solid rgba(255, 255, 255, 0.2) !important; /* Clean structural border contour */
+  background-color: rgba(255, 255, 255, 0.05) !important;
+  border: 2px solid rgba(255, 255, 255, 0.25) !important; /* Visible pill contour */
 }
 
 /* The Active Filled Neon Teal State (View Projects) */
@@ -522,8 +525,9 @@ a {
 .button.neon-pill:hover:not(.active) {
   color: #00e5ff !important;
   border-color: #00e5ff !important;
-  background-color: rgba(0, 229, 255, 0.08) !important; /* Soft interior neon glow */
-  box-shadow: 0 0 12px rgba(0, 229, 255, 0.4) !important; /* Outer radioactive ring */
+  background-color: rgba(0, 229, 255, 0.1) !important;
+  box-shadow: 0 0 12px rgba(0, 229, 255, 0.4) !important;
 }
+
 
 
