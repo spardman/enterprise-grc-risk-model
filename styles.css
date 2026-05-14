@@ -495,18 +495,22 @@ a {
   text-align: center;
 }
 
-/* Universal rounded capsule/pill overrides */
+/* Universal rounded capsule/pill layout format overrides */
 .button.neon-pill {
   display: inline-block !important;
+  padding: 12px 24px !important;
+  margin: 6px 8px !important;
+  font-weight: 600 !important;
   border-radius: 50px !important; 
   text-transform: none !important; 
+  text-decoration: none !important;
   transition: all 0.3s ease-in-out !important;
-  background-color: transparent !important;
-  border: 2px solid transparent !important;
   color: #ffffff !important;
+  background-color: rgba(255, 255, 255, 0.03) !important; /* Soft backdrop for legibility */
+  border: 2px solid rgba(255, 255, 255, 0.2) !important; /* Clean structural border contour */
 }
 
-/* The Active Filled Neon Teal Pill State (View Projects) */
+/* The Active Filled Neon Teal State (View Projects) */
 .button.neon-pill.active {
   background-color: #00e5ff !important;
   color: #0b0c10 !important;
@@ -514,11 +518,12 @@ a {
   box-shadow: 0 0 15px rgba(0, 229, 255, 0.6) !important;
 }
 
-/* Retroactive Hover Effects for the Remaining Buttons */
+/* Retroactive Hover Design for the Remaining Bordered Buttons */
 .button.neon-pill:hover:not(.active) {
-  border-color: #00e5ff !important;
   color: #00e5ff !important;
-  background-color: rgba(0, 229, 255, 0.08) !important; /* Soft interior neon tint */
-  box-shadow: 0 0 12px rgba(0, 229, 255, 0.4) !important; /* Outer radioactive glow ring */
+  border-color: #00e5ff !important;
+  background-color: rgba(0, 229, 255, 0.08) !important; /* Soft interior neon glow */
+  box-shadow: 0 0 12px rgba(0, 229, 255, 0.4) !important; /* Outer radioactive ring */
 }
+
 
