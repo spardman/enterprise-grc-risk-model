@@ -494,29 +494,30 @@ a {
     gap: 16px;
   text-align: center;
 }
+
+/* Base Pill Shape Overrides for the Neon Style Group */
+.button.neon-glow {
+  display: inline-block !important;
+  border-radius: 50px !important; /* Forces the capsule/pill look */
+  text-transform: none !important; /* Prevents unwanted capitalization changes */
+  transition: all 0.3s ease-in-out !important;
+  background-color: transparent !important;
+  border: 2px solid transparent !important;
+  color: #ffffff !important;
 }
 
-.hero-actions a {
-  display: inline-block;
-  padding: 10px 24px;
-  border-radius: 50px;
-  font-family: inherit;
-  font-weight: 600;
-  text-decoration: none;
-  color: #ffffff;
-  background: transparent;
-  border: 2px solid transparent;
-  transition: all 0.3s ease-in-out;
+/* The Active Neon Teal Filled Pill State (Like View Projects) */
+.button.neon-glow.active {
+  background-color: #00e5ff !important;
+  color: #0b0c10 !important;
+  border-color: #00e5ff !important;
+  box-shadow: 0 0 15px rgba(0, 229, 255, 0.6) !important;
 }
 
-.hero-actions a.active {
-  background-color: #00e5ff; 
-  color: #0b0c10; 
-  box-shadow: 0 0 15px rgba(0, 229, 255, 0.6);
-}
-
-.hero-actions a:hover:not(.active) {
-  border-color: #00e5ff;
-  color: #00e5ff;
-  text-shadow: 0 0 8px rgba(0, 229, 255, 0.4);
+/* Radioactive Retro Hover State for the Remaining Buttons */
+.button.neon-glow:hover:not(.active) {
+  border-color: #00e5ff !important;
+  color: #00e5ff !important;
+  background-color: rgba(0, 229, 255, 0.08) !important; /* Soft interior neon glow */
+  box-shadow: 0 0 12px rgba(0, 229, 255, 0.4) !important; /* Outer glow ring */
 }
