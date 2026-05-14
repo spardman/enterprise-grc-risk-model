@@ -495,39 +495,35 @@ a {
   text-align: center;
 }
 
-/* Fixed Height Pill Structure to Override Template Layouts */
-.button.neon-pill {
+/* Clean, standalone design for the remaining header links */
+.custom-neon-btn {
   display: inline-flex !important;
   align-items: center !important;
   justify-content: center !important;
-  height: 46px !important; /* Explicit heights stop template squishing */
+  height: 44px !important;
   padding: 0 24px !important;
   margin: 6px 8px !important;
+  font-family: inherit !important;
+  font-size: 14px !important;
   font-weight: 600 !important;
-  border-radius: 50px !important; 
-  text-transform: none !important; 
+  border-radius: 50px !important;
   text-decoration: none !important;
+  text-transform: none !important;
   transition: all 0.3s ease-in-out !important;
   color: #ffffff !important;
   background-color: rgba(255, 255, 255, 0.05) !important;
-  border: 2px solid rgba(255, 255, 255, 0.25) !important; /* Visible pill contour */
+  border: 2px solid rgba(255, 255, 255, 0.3) !important; /* Forces the missing outline to show */
+  cursor: pointer !important;
 }
 
-/* The Active Filled Neon Teal State (View Projects) */
-.button.neon-pill.active {
-  background-color: #00e5ff !important;
-  color: #0b0c10 !important;
-  border-color: #00e5ff !important;
-  box-shadow: 0 0 15px rgba(0, 229, 255, 0.6) !important;
-}
-
-/* Retroactive Hover Design for the Remaining Bordered Buttons */
-.button.neon-pill:hover:not(.active) {
+/* Radioactive Hover Transition */
+.custom-neon-btn:hover {
   color: #00e5ff !important;
   border-color: #00e5ff !important;
   background-color: rgba(0, 229, 255, 0.1) !important;
   box-shadow: 0 0 12px rgba(0, 229, 255, 0.4) !important;
 }
+
 
 
 
