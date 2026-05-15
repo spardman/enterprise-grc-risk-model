@@ -1,7 +1,6 @@
 # 🛡️ Enterprise GRC Quantitative Risk Model
 
-[![Python Version](https://shields.io)](https://python.org)
-[![License: MIT](https://shields.io)](https://opensource.org)
+<h6>[ Python 3.10+ ] &nbsp; [ License: MIT ]</h6>
 
 An enterprise-grade **IT GRC (Governance, Risk, and Compliance)** quantitative risk engine. This project shifts organizations away from ambiguous qualitative "Red/Yellow/Green" risk matrices and moves toward defensible, data-driven financial forecasting using **Monte Carlo simulations**.
 
