@@ -28,6 +28,16 @@ Traditional risk management relies on subjective guessing. This model injects ma
 
 ---
 
+## 📊 Telemetry & Real-World Data Inputs
+
+Rather than relying purely on theoretical numbers, this risk engine is built to ingest threat parameters from live enterprise monitoring environments. 
+
+The dashboard below showcases active telemetry data from an operational **Wazuh SIEM/XDR** instance, tracking real-time alert logs to help calculate data inputs for our **Loss Event Frequency (LEF)** models:
+
+![Wazuh Alert Telemetry Dashboard](wazuh-dashboard.png)
+
+---
+
 ## 🚀 Getting Started
 
 ### 1. Installation
