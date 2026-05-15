@@ -4,7 +4,7 @@
 
 An enterprise-grade **IT GRC (Governance, Risk, and Compliance)** quantitative risk engine. This project shifts organizations away from ambiguous qualitative "Red/Yellow/Green" risk matrices and moves toward defensible, data-driven financial forecasting using **Monte Carlo simulations**.
 
-🔗 **[View the Live Portfolio Page](https://github.io)**
+🔗 **[View the Live Portfolio Page](https://spardman.github.io/enterprise-grc-risk-model/)**
 
 ---
 
