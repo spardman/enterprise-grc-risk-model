@@ -58,8 +58,6 @@ python quantify_risk.py --simulations 10000
 ## 📊 Sample Outputs & Visualizations
 
 ### Annual Loss Exposure Distribution
-*Place a screenshot or description of your generated risk graphs here!*
-
 
 | Risk Metric | Value (USD) | Description |
 | :--- | :--- | :--- |
