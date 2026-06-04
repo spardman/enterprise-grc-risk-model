@@ -73,3 +73,25 @@ I am **Dwan Edwards**, an Enterprise Cybersecurity Strategy & GRC Analyst. Lever
 - **LinkedIn:** [dwan-edwards](https://linkedin.com)
 - **Professional Blog:** [Read My Cybersecurity Journey](https://github.ioblog.html)
 
+
+
+---
+
+## 🚴 MBA Executive Simulation: Business Alignment Case Study
+*Complementary Portfolio Project demonstrating financial strategy and enterprise risk governance.*
+
+### 📊 Strategic Resource Allocation & Financial Trajectory
+To effectively evaluate enterprise risk, security leadership must comprehend core business drivers. This multi-quarter executive lifecycle simulation demonstrates top-line growth optimization and tactical capital risk management.
+
+
+| Metric | Quarter 2 | Quarter 3 | Quarter 4 | Quarter 5 | Quarter 6 |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Gross Revenue** | $402,950 | $656,537 | $2,178,819 | $5,301,155 | $6,528,248 |
+| **Gross Profit** | $263,001 | $391,072 | $1,450,422 | $3,371,137 | $4,069,411 |
+| **R&D Investment** | $30,000 | $60,000 | $1,612,421 | $987,207 | $1,983,746 |
+| **Net Income** | -$213,862 | -$88,712 | -$1,739,094 | $1,223,766 | -$29,739 |
+
+### 🧠 Key GRC Strategic Takeaways
+* **Strategic Risk Appetite:** Intentionally accepted a $1.73M capital deficit in Q4. This calculated risk secured market-leading product architecture.
+* **Financial Governance:** Utilized corporate Loss Carry Forward tax compliance mechanisms. This optimized corporate liquidity during hyper-growth.
+* **Executive Presentation:** Synthesized chaotic multi-quarter operational data sets into high-level visual reporting metrics.
