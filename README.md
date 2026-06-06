@@ -1,68 +1,56 @@
-# 🛡️ Enterprise GRC Quantitative Risk Model
+# 📊 Enterprise GRC Quantitative Risk Model
+### *Data-Driven Financial Forecasting for Cybersecurity Risk Exposure*
 
-<h6>[ Python 3.10+ ] &nbsp; [ License: MIT ]</h6>
+[![Python 3.10+](https://shields.io)](https://python.org)
+[![License: MIT](https://shields.io)](https://opensource.org)
+[![Framework: FAIR](https://shields.io)](https://fairinstitute.org)
 
-An enterprise-grade **IT GRC (Governance, Risk, and Compliance)** quantitative risk engine. This project shifts organizations away from ambiguous qualitative "Red/Yellow/Green" risk matrices and moves toward defensible, data-driven financial forecasting using **Monte Carlo simulations**.
+An enterprise-grade **IT GRC (Governance, Risk, and Compliance) quantitative risk engine**. This project shifts organizations away from ambiguous, subjective qualitative "Red/Yellow/Green" risk matrices and moves toward defensible, data-driven financial forecasting using **Monte Carlo simulations**.
 
-🔗 **[View the Live Portfolio Page](https://spardman.github.io/enterprise-grc-risk-model/)**
-
----
-
-## 🎯 Core Value Proposition
-
-Traditional risk management relies on subjective guessing. This model injects mathematical rigor into cybersecurity by treating risk variables as statistical distributions, allowing C-suite executives to answer: *"What is our actual financial exposure in dollars if a data breach occurs this year?"*
-
-### Key Capabilities
-- **Loss Event Frequency (LEF):** Modeled using Poisson distributions.
-- **Loss Event Magnitude (LEM):** Modeled using Log-Normal distributions to capture extreme impact tails.
-- **Monte Carlo Engine:** Simulates 10,000+ organizational years to forecast annual loss exposure.
+🔗 **[View the Live Interactive Portfolio Page](https://github.io)**
 
 ---
 
-## 💻 Tech Stack & Architecture
+## 💡 Executive Value Proposition
 
-- **Language:** Python 3.10+
-- **Data Science Libraries:** `numpy`, `pandas`, `matplotlib`, `scipy`
-- **Statistical Foundations:** Risk Analysis Framework (similar to FAIR principles)
+Traditional corporate risk management relies heavily on subjective guessing. This model injects mathematical rigor into corporate cybersecurity by treating risk variables as statistical distributions. 
 
----
-
-## 📊 Telemetry & Real-World Data Inputs
-
-Rather than relying purely on theoretical numbers, this risk engine is built to ingest threat parameters from live enterprise monitoring environments. 
-
-The dashboard below showcases active telemetry data from an operational **Wazuh SIEM/XDR** instance, tracking real-time alert logs to help calculate data inputs for our **Loss Event Frequency (LEF)** models:
-
-![Wazuh Alert Telemetry Dashboard](wazuh-dashboard.png)
+By running thousands of simulated scenarios, this framework allows **C-suite executives, Board Members, and CISOs** to answer the definitive financial question:
+> **"What is our actual financial exposure in dollars if a data breach or system outage occurs this year?"**
 
 ---
 
-## 🚀 Getting Started
+## 🛠️ Key Capabilities
 
-### 1. Installation
-Clone the repository and install the standard numerical dependencies:
-\`\`\`bash
-git clone https://github.com
-cd enterprise-grc-risk-model
-pip install -r requirements.txt
-\`\`\`
-
-### 2. Running a Risk Simulation
-To execute the core engine and generate risk visualization outputs, run:
-\`\`\`bash
-python quantify_risk.py --simulations 10000
-\`\`\`
+*   **Loss Event Frequency (LEF):** Modeled using **Poisson distributions** to accurately map the probability of threat events occurring within a given time frame.
+*   **Loss Event Magnitude (LEM):** Modeled using **Log-normal distributions** to accurately capture extreme, high-impact tail risks (e.g., catastrophic data leaks).
+*   **Monte Carlo Simulation Engine:** Simulates **10,000+ organizational operating years** in seconds to forecast annualized loss exposure (ALE), giving leadership a clear statistical spectrum of risk.
+*   **FAIR Framework Alignment:** Built upon the statistical foundations of the Factor Analysis of Information Risk (FAIR) methodology, the global standard for cyber risk quantification.
 
 ---
 
-## 📊 Sample Outputs & Visualizations
+## 🏗️ Tech Stack & Architecture
 
-### Annual Loss Exposure Distribution
+*   **Core Language:** Python 3.10+
+*   **Data Science Libraries:** `numpy` (simulations), `pandas` (data structuring), `matplotlib` (visualizations), `scipy` (statistical modeling)
+*   **Deployment Ready:** Clean, modular structure easily integrated into existing enterprise IT risk registers or SIEM dashboards (e.g., Splunk, Wazuh).
 
-| Risk Metric | Value (USD) | Description |
-| :--- | :--- | :--- |
-| **Average Expected Loss** | $240,000 | The mean loss expected per operating year. |
-| **95th Percentile (VAR)** | $1.2M | Value at Risk: The maximum loss expected with 95% confidence. |
+---
+
+## 📈 Executive Deliverables Generated
+The statistical engine outputs concrete, boardroom-ready reports:
+1.  **Annualized Loss Exposure (ALE):** The mean financial loss expected per year.
+2.  **Single Loss Expectancy (SLE) curves:** Visualizing the probability of crossing specific loss thresholds (e.g., "What is the % chance we lose more than \$1M on a single event?").
+3.  **Risk Optimization Insights:** Direct data points allowing CFOs and CISOs to mathematically justify security budget allocations based on hard ROI.
+
+---
+
+## 💼 Consulting & Implementation Contact
+This framework can be fully customized and integrated into your organization's unique threat profile, vendor supply chain, or compliance audit readiness workflow.
+
+*   **Developer/Consultant:** [Your Name], MBA
+*   **Credentials:** Certified Ethical Hacker (CEH) | CompTIA Security+
+*   **Specialty:** Fractional GRC Consulting & IT Risk Automation
 
 ---
 
@@ -72,8 +60,6 @@ I am **Dwan Edwards**, an Enterprise Cybersecurity Strategy & GRC Analyst. Lever
 
 - **LinkedIn:** [dwan-edwards](https://linkedin.com)
 - **Professional Blog:** [Read My Cybersecurity Journey](https://github.ioblog.html)
-
-
 
 ---
 
