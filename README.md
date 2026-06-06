@@ -56,7 +56,7 @@ This framework can be fully customized and integrated into your organization's u
 
 I am **Dwan Edwards**, an Enterprise Cybersecurity Strategy & GRC Analyst. Leveraging an MBA in IT Management, two industry security certifications, and a professional background spanning tech and education, I specialize in bridging the gap between business risk and technical security. This project showcases data-driven methodologies applied to quantitative compliance.
 
-- **LinkedIn:** [dwan-edwards](https://linkedin.com)
+- **LinkedIn:** [dwan-edwards](https://www.linkedin.com/in/dwan-edwards/)
 - **Professional Blog:** [Read My Cybersecurity Journey](https://spardman.github.io/enterprise-grc-risk-model/blog.html)
 
 ---
