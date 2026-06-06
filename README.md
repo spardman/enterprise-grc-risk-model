@@ -1,7 +1,7 @@
 # 📊 Enterprise GRC Quantitative Risk Model
 ### *Data-Driven Financial Forecasting for Cybersecurity Risk Exposure*
 
-**🧮 Environment:** [Python 3.10+](https://python.org) | **📜 Governance Framework:** [FAIR Aligned](https://fairinstitute.org) | **⚖️ License:** [MIT](https://opensource.org)
+🧮 **Environment:** Python 3.10+ | 📊 **Methodology:** Quantitative IT Risk Analysis & Financial Forecasting 
 
 An enterprise-grade **IT GRC (Governance, Risk, and Compliance) quantitative risk engine**. This project shifts organizations away from ambiguous, subjective qualitative "Red/Yellow/Green" risk matrices and moves toward defensible, data-driven financial forecasting using **Monte Carlo simulations**.
 
@@ -23,7 +23,6 @@ By running thousands of simulated scenarios, this framework allows **C-suite exe
 *   **Loss Event Frequency (LEF):** Modeled using **Poisson distributions** to accurately map the probability of threat events occurring within a given time frame.
 *   **Loss Event Magnitude (LEM):** Modeled using **Log-normal distributions** to accurately capture extreme, high-impact tail risks (e.g., catastrophic data leaks).
 *   **Monte Carlo Simulation Engine:** Simulates **10,000+ organizational operating years** in seconds to forecast annualized loss exposure (ALE), giving leadership a clear statistical spectrum of risk.
-*   **FAIR Framework Alignment:** Built upon the statistical foundations of the Factor Analysis of Information Risk (FAIR) methodology, the global standard for cyber risk quantification.
 
 ---
 
