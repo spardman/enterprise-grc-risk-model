@@ -1,9 +1,7 @@
 # 📊 Enterprise GRC Quantitative Risk Model
 ### *Data-Driven Financial Forecasting for Cybersecurity Risk Exposure*
 
-[![Python 3.10+](https://shields.io)](https://python.org)
-[![License: MIT](https://shields.io)](https://opensource.org)
-[![Framework: FAIR](https://shields.io)](https://fairinstitute.org)
+**🧮 Environment:** [Python 3.10+](https://python.org) | **📜 Governance Framework:** [FAIR Aligned](https://fairinstitute.org) | **⚖️ License:** [MIT](https://opensource.org)
 
 An enterprise-grade **IT GRC (Governance, Risk, and Compliance) quantitative risk engine**. This project shifts organizations away from ambiguous, subjective qualitative "Red/Yellow/Green" risk matrices and moves toward defensible, data-driven financial forecasting using **Monte Carlo simulations**.
 
