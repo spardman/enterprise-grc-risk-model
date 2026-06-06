@@ -7,7 +7,7 @@
 
 An enterprise-grade **IT GRC (Governance, Risk, and Compliance) quantitative risk engine**. This project shifts organizations away from ambiguous, subjective qualitative "Red/Yellow/Green" risk matrices and moves toward defensible, data-driven financial forecasting using **Monte Carlo simulations**.
 
-🔗 **[View the Live Interactive Portfolio Page](https://github.io)**
+🔗 **[View the Live Interactive Portfolio Page](https://spardman.github.io/enterprise-grc-risk-model)**
 
 ---
 
@@ -48,7 +48,7 @@ The statistical engine outputs concrete, boardroom-ready reports:
 ## 💼 Consulting & Implementation Contact
 This framework can be fully customized and integrated into your organization's unique threat profile, vendor supply chain, or compliance audit readiness workflow.
 
-*   **Developer/Consultant:** [Your Name], MBA
+*   **Developer/Consultant:** Dwan Edwards, MBA
 *   **Credentials:** Certified Ethical Hacker (CEH) | CompTIA Security+
 *   **Specialty:** Fractional GRC Consulting & IT Risk Automation
 
@@ -59,7 +59,7 @@ This framework can be fully customized and integrated into your organization's u
 I am **Dwan Edwards**, an Enterprise Cybersecurity Strategy & GRC Analyst. Leveraging an MBA in IT Management, two industry security certifications, and a professional background spanning tech and education, I specialize in bridging the gap between business risk and technical security. This project showcases data-driven methodologies applied to quantitative compliance.
 
 - **LinkedIn:** [dwan-edwards](https://linkedin.com)
-- **Professional Blog:** [Read My Cybersecurity Journey](https://github.ioblog.html)
+- **Professional Blog:** [Read My Cybersecurity Journey](https://spardman.github.io/enterprise-grc-risk-model/)
 
 ---
 
