@@ -7,6 +7,9 @@ An enterprise-grade **IT GRC (Governance, Risk, and Compliance) quantitative ris
 
 🔗 **[View the Live Interactive Portfolio Page](https://spardman.github.io/enterprise-grc-risk-model)**
 
+## 📋 Supplementary Documentation
+* 📄 **[Download the Official Technical Briefing Summary (PDF)](Technical_Briefing_Summary_Wazuh_SIEM.pdf)** — An executive-ready architectural breakdown of the Wazuh SIEM telemetry pipeline and quantitative Python risk model configurations.
+
 ---
 
 ## 💡 Executive Value Proposition
